@@ -1,0 +1,236 @@
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+#page-wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    font-size: small;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.menu li {
+    cursor: pointer;
+}
+
+.contact-button, .get-in-touch-button {
+    padding: 5px 10px;
+    font-size: small;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main-content {
+    text-align: center;
+    padding: 20px;
+}
+
+.banner {
+    background-image: url("Image20241009211516.jpg");
+    height: 360px;
+    border-radius: 15px;
+    background-size: cover;
+}
+
+.my-works-header {
+    text-align: center; 
+    margin: 20px 0; 
+}
+
+.image-row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px grey;
+    max-width: 200px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.card-image {
+    width: 100%;
+    max-height: 112px;
+    height: auto;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-content h3 {
+    margin: 5px 5px;
+    font-size: 1.2em;
+}
+
+.card-content p {
+    color: black;
+}
+
+section {
+    padding: 20px;
+}
+
+.work-process {
+    font-size: small;
+    border-radius: 15px 15px 0 0;
+    margin-bottom: -15px;
+    background-color:#c5c4c4;
+}
+
+.work.process h2 {
+    text-align: left; 
+    margin-bottom: 20px; 
+}
+
+.work.process .process-step {
+    margin: 15px 0; 
+}
+
+.work.process h3 {
+    margin: 0; 
+    color: #333; 
+    font-size: 40px;
+}
+
+.work.process p {
+    margin: 0; 
+    color: #333; 
+}
+
+.light-italic {
+    font-style: italic; 
+    font-weight: 450;
+}
+
+.process-step {
+    position: relative;
+}
+
+.circle {
+    display: inline-block;
+    width: 30px; 
+    height: 30px; 
+    border-radius: 50%; 
+    background-color: transparent; 
+    border: 2px solid #323333; 
+    color: #323333; 
+    text-align: center; 
+    line-height: 30px; 
+    position: absolute;
+    right: -2px;
+    top: 30%; 
+    transform: translateY(-50%);
+    font-size: 16px;
+}
+
+.divider {
+    border: none; 
+    border-top: 2px solid #323333; 
+   
+}    
+
+.get-in-touch {
+    padding: 20px;
+    color: white;
+    background-color: #323333;
+    border-radius: 18px 18px 0 0;
+    text-align: center;
+}
+
+.get-in-touch h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+    width: 80%;
+    max-width: 400px; 
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #b3b2b2; 
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.submit-button{
+    padding: 5px 10px;
+    font-size: small;
+    border: solid white 1.5px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: #323333;
+    color: white;
+    padding: 10px 20px; 
+}
+
+.footer-content {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto; 
+    width: 100%; 
+}
+
+.footer-right ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex;
+    gap: 20px; 
+}
+
+.footer-right a {
+    color: white; 
+    text-decoration:underline;
+}
+
+.footer-right a:hover {
+    text-decoration: underline; 
+}
